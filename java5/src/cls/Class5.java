@@ -3,6 +3,7 @@ package cls;
 public class Class5 {
 	public static void main(String[] args) {
 		MyClass9 mc9 = new MyClass9();
+	}
 }
 
 class MyClass9{
@@ -11,19 +12,13 @@ class MyClass9{
 	String str;
 	double dnum;
 	
-
-	}
-	
 	void setVar(int num1, int num2, String str,  double dnum) {
 		int var = 0;
 		this.num1 = num1;
 		this.num2 = num2;
 		this.str = str;
 		this.dnum = dnum;
-	}
-		
-		
-		
+	}	
 		
 	public int getNum1() {
 	return num1;

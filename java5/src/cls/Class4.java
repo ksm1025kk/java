@@ -1,10 +1,10 @@
 package cls;
 
 public class Class4 {
+	
 	public static void main(String[] args) {
 		MyClass8 mc8 = new MyClass8();
 		mc8.setStr("담기!");
-		System.out.println("mc8.getStr");
 	}
 }	
 class MyClass8{
@@ -24,8 +24,6 @@ class MyClass8{
 	}
 	String getStr(MyClass8 this) {	// 클래스명 this
 		// str 변수를 사용하는 함수
-		String str = "hello";
-		System.out.println();
 		return this.str;
 	}
 }
