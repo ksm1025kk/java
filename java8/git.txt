@@ -1,0 +1,6 @@
+git config --global user.name "깃허브 아이디"
+git config --global user.email "기허브 이메일"
+git add *
+git commit -m "메모내용"
+git push origin master
+
